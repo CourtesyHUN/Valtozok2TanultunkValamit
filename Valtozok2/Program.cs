@@ -54,6 +54,22 @@ namespace Valtozok2
             A && false == false
             A && true == A
             A || !A == true
+            A || A == A
+            A && !A == fales
+            A && A == A
+            !!A == A
+
+            Kommunatív
+            A || B == B || A
+            A && B == B && A
+
+            Asszocialivitás
+            A || B || C == (A || B) || C == A || (B || C)
+            A && B && C == (A && B) && C == A && (B && C)
+
+            Drisztibutivitás
+            A && (B || C) == (A && C) || (A || B)
+            A && (C || B) == (A || C) && (A || B)
 
 
             */
